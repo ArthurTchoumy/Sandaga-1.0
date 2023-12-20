@@ -119,7 +119,7 @@ export default function CategorieProductScreen(props) {
                     shadowRadius: 25,
                     shadowOffset: {width: 0, height: 15},
                     shadowOpacity: 0.4,
-                }} className="">
+                }}  onPress={()=> navigation.navigate('CategorieCart')}>
                     <Text style={{color:'#45797E'}} className="text-xl text-center text-white font-bold">Add to card $ 1.50</Text>
                 </TouchableOpacity>
             </View>
